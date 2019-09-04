@@ -37,7 +37,7 @@ public class InitWindow  extends JFrame{
     private JLabel label1 = new JLabel("Vertical Buttons");
     private JButton settings = new JButton("Settings");
     private JButton exit= new JButton("Exit");
-
+    private Window w;
 	public InitWindow() {
 		//podesavanje Prozora
 		Toolkit kit= Toolkit.getDefaultToolkit();
@@ -74,7 +74,7 @@ public class InitWindow  extends JFrame{
 				//to destroy current window
 				dispose();
 			
-				new Window();
+				w=new Window();
 				
 			}});
 		

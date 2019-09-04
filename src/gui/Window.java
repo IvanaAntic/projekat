@@ -144,7 +144,7 @@ public class Window extends JFrame  {
 		                    JOptionPane.ERROR_MESSAGE);
 				}
 				  String f2 =dateFormat.format(d.getTime());
-				  System.out.println("ovde datum"+f2);
+				 // System.out.println("ovde datum"+f2);
 				  //on transformise sekunde u minute ako stavimo vise od 59 pa da odma updejtujemo i na frontu
 				  fieldTime.setText(f2);
 				  if(f2.matches("^([0-1]\\d|2[0-3]):([0-5]\\d):([0-5]\\d)$")) {
@@ -204,8 +204,8 @@ public class Window extends JFrame  {
 							// TODO Auto-generated method stub
 					
 							 Calendar now = Calendar.getInstance();
-					         System.out.println(dateFormat.format(now.getTime()));
-					         System.out.println(dateFormat.format(d.getTime()));
+					        // System.out.println(dateFormat.format(now.getTime()));
+					         //System.out.println(dateFormat.format(d.getTime()));
 					         
 					         String f1 = dateFormat.format(now.getTime());
 					         String f2 =dateFormat.format(d.getTime());
